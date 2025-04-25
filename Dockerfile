@@ -1,5 +1,5 @@
-# Étape 1 : Build de l'app Next.js
-FROM node:22-slim AS builder
+# Étape 1 : Construction de l'application Next.js
+FROM node:18-alpine AS builder
 
 # Répertoire de travail
 WORKDIR /app
@@ -7,31 +7,26 @@ WORKDIR /app
 # Installer pnpm globalement
 RUN npm install -g pnpm
 
-# Copier les fichiers de dépendances en premier (pour le cache)
-COPY package.json pnpm-lock.yaml ./ 
+# Copier les fichiers de dépendances en premier (optimiser le cache)
+COPY package.json pnpm-lock.yaml ./
 
-# Installer les dépendances avec pnpm
+# Installer les dépendances
 RUN pnpm install --frozen-lockfile
 
-# Copier le reste du projet
+# Copier tout le code source dans l'image
 COPY . .
 
-# Build de l'app Next.js
+# Construire l'application Next.js pour la production
 RUN pnpm run build
 
-# Étape 2 : Image finale, plus légère
-FROM node:22-slim
+# Étape 2 : Serveur Nginx pour servir l'application
+FROM nginx:alpine
 
-WORKDIR /app
+# Copier les fichiers générés par Next.js dans le dossier où Nginx peut les servir
+COPY --from=builder /app/.next /usr/share/nginx/html
 
-# Installer pnpm globalement dans l'image finale
-RUN npm install -g pnpm
+# Exposer le port 80
+EXPOSE 80
 
-# Copier uniquement les fichiers nécessaires à l'exécution
-COPY --from=builder /app ./ 
-
-# Exposer le port par défaut de Next.js
-EXPOSE 3000
-
-# Lancer l'app
-CMD ["pnpm", "start"]
+# Lancer Nginx
+CMD ["nginx", "-g", "daemon off;"]
