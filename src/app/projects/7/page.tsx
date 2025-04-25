@@ -1,0 +1,90 @@
+import { Github } from "lucide-react";
+
+export default function ProjetAgenda() {
+    return (
+        <main className="flex justify-center items-start w-full p-12">
+            <div className="gap-10 w-full max-w-6xl mt-12 flex flex-col items-start">
+
+                {/* En-tête */}
+                <section className="text-left w-full border-b border-stone-500 pb-6">
+                    <h1 className="text-4xl font-extrabold text-white">Projet Agenda</h1>
+
+                    {/* Bouton GitHub sous le h1 */}
+                    <a
+                        href="https://github.com/lucien-wrq/Agenda"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-3 mt-4 text-stone-300 hover:text-white transition duration-200"
+                    >
+                        <Github size={28} />
+                        <span className="text-lg font-medium">Voir sur GitHub</span>
+                    </a>
+
+                    <p className="text-stone-300 mt-3 text-lg leading-relaxed max-w-3xl">
+                        À la suite d'un cours sur les fondamentaux du <span className="font-bold">PHP</span> et de <span className="font-bold">MySQL</span>, 
+                        nous avons été lancés sur la réalisation d'un agenda. Ce travail de groupe visait à mettre en place cette solution.
+                    </p>
+                </section>
+
+                {/* Technologies utilisées */}
+                <section className="w-full bg-stone-800 p-6 rounded-lg shadow-lg">
+                    <h2 className="text-2xl font-bold text-white border-b border-stone-500 pb-3">Technologies utilisées</h2>
+                    <ul className="text-stone-300 list-disc list-inside mt-3 space-y-2 text-lg text-left">
+                        <li>PHP (développement backend et gestion des événements)</li>
+                        <li>MySQL (base de données pour stocker les événements)</li>
+                        <li>HTML & CSS (interfaces utilisateur)</li>
+                        <li>GitHub (gestion du projet et versioning)</li>
+                        <li>Trello (organisation des tâches)</li>
+                    </ul>
+                </section>
+
+                {/* Compétences acquises */}
+                <section className="w-full bg-stone-800 p-6 rounded-lg shadow-lg">
+                    <h2 className="text-2xl font-bold text-white border-b border-stone-500 pb-3">Compétences acquises</h2>
+
+                    <div className="text-stone-300 mt-3 space-y-4 text-lg">
+                        {/* Travailler en mode projet */}
+                        <div>
+                            <h3 className="text-xl font-semibold text-white">Travailler en mode projet</h3>
+                            <ul className="list-disc list-inside space-y-2">
+                                <li>Division du travail entre <span className="font-bold">Frontend</span> (HTML & CSS) et <span className="font-bold">Backend</span> (PHP & MySQL).</li>
+                                <li>Planification structurée avec <span className="font-bold">GitHub</span> et <span className="font-bold">Trello</span>.</li>
+                                <li>Répartition des tâches : conception de la base de données, développement des scripts PHP et interfaces utilisateur.</li>
+                            </ul>
+                        </div>
+
+                        {/* Organiser son développement professionnel */}
+                        <div>
+                            <h3 className="text-xl font-semibold text-white">Organiser son développement professionnel</h3>
+                            <ul className="list-disc list-inside space-y-2">
+                                <li>Approfondissement de l’apprentissage du <span className="font-bold">PHP</span> et des bases de données.</li>
+                                <li>Travail en équipe et gestion efficace du projet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Images du projet */}
+                <section className="w-full text-center space-y-6">
+                    <div>
+                        <h4 className="text-xl font-semibold text-white">Agenda</h4>
+                        <img
+                            alt="Aperçu de l'Agenda"
+                            src="img/AgendaImg.jpg"
+                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
+                        />
+                    </div>
+                    <div>
+                        <h4 className="text-xl font-semibold text-white">Création d'événement</h4>
+                        <img
+                            alt="Base de données de l'Agenda"
+                            src="img/AgendaBDD.jpg"
+                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
+                        />
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    );
+}
