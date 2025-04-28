@@ -1,15 +1,9 @@
 import Link from "next/link";
+import competencesData from "@/data/data.json";
 
 export default function Competences() {
-    const competences = [
-        { id: "repondreIncidents", name: "Répondre aux incidents et aux demandes d'assistance et d'évolution", category: "Support & Maintenance", description: "Gestion des demandes utilisateurs, résolution d’incidents et suivi des évolutions logicielles." },
-        { id: "mettreDispoService", name: "Mettre à disposition des utilisateurs un service informatique", category: "Déploiement & Infrastructure", description: "Déploiement et maintenance des services informatiques, intégration de nouvelles solutions et accompagnement des utilisateurs." },
-        { id: "presenceEnLigne", name: "Développer la présence en ligne de l'organisation", category: "Web & Référencement", description: "Création et optimisation de sites web, gestion du référencement et des réseaux sociaux." },
-        { id: "organiserDevPro", name: "Organiser son développement professionnel", category: "Évolution & Veille", description: "Auto-formation, veille technologique et amélioration continue des compétences." },
-        { id: "gererPatrimoine", name: "Gérer le patrimoine informatique", category: "Administration & Sécurité", description: "Administration des infrastructures, gestion des sauvegardes et sécurité des systèmes." },
-        { id: "modeProjet", name: "Travailler en mode projet", category: "Collaboration & Méthodologie", description: "Planification, travail d’équipe et utilisation d’outils de gestion comme Trello et GitHub." }
-    ];
 
+    const competences = competencesData.competences;
     return (
         <main className="flex justify-center items-start w-full p-12">
             <div className="gap-10 w-full max-w-6xl mt-12 flex flex-col items-start">
@@ -28,8 +22,8 @@ export default function Competences() {
 
                     {competences.map((competence, index) => (
                         <div key={competence.id} className="mt-4 flex flex-col">
-                            <h3 className="text-xl font-semibold text-white">{competence.category}</h3>
-                            <p className="text-stone-300">{competence.name}</p>
+                            <h3 className="text-xl font-semibold text-white">{competence.name}</h3>
+                            <p className="text-stone-300">{competence.category}</p>
                             <p className="text-stone-400 text-sm">{competence.description}</p>
                             
                             {/* Bouton "Voir plus" pour chaque compétence */}
