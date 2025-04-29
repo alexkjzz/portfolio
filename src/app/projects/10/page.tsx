@@ -61,23 +61,27 @@ export default function ProjetChasseExpo() {
                     </div>
                 </section>
 
-                {/* Images du projet */}
-                <section className="w-full text-center space-y-6">
-                    <div>
-                        <h4 className="text-xl font-semibold text-white">Interface de l'application</h4>
-                        <img
-                            alt="Aperçu de l'application Chasse Expo"
-                            src="img/ChasseExpo_App.jpg"
-                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                        />
-                    </div>
-                    <div>
-                        <h4 className="text-xl font-semibold text-white">Fonctionnalité de la caméra</h4>
-                        <img
-                            alt="Capture avec la caméra dans l'application"
-                            src="img/ChasseExpo_Camera.jpg"
-                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                        />
+                <section className="w-full flex flex-col items-center gap-6">
+                    {/* Conteneur des images disposées verticalement */}
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="chasse_expo"
+                                src="/chasse_expo.png"
+                                className="rounded-lg w-[700px] shadow-lg h-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Chasse Expo</p>
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="playstore"
+                                src="/playstore_chasse_expo.png"
+                                className="rounded-lg shadow-lg w-[700px] h-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Playstore ChasseExpo</p>
+                        </div>
+
                     </div>
                 </section>
 

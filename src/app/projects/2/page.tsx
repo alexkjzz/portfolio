@@ -72,13 +72,46 @@ export default function TPEpsistem() {
                     </div>
                 </section>
 
-                {/* Image du projet */}
-                <section className="w-full text-center">
-                    <img
-                        alt="Interface EPSI:STEM"
-                        src="img/jeuxEpsistem.jpg"
-                        className="rounded-lg shadow-lg w-full max-w-2xl mx-auto mt-6"
-                    />
+{/* Images du projet */}
+                <section className="w-full flex flex-col items-center gap-6">
+                    
+                    {/* Première ligne avec deux images */}
+                    <div className="flex justify-center gap-6">
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="Interface EPSI:STEM"
+                                src="/terminal_epsistem.jpg"
+                                width={300}
+                                height={150}
+                                className="mt-6 rounded-lg shadow-lg"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Terminal</p>
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="Interface EPSI:STEM"
+                                src="/jeu_epsistem.jpg"
+                                width={300}
+                                height={150}
+                                className="mt-6 rounded-lg shadow-lg"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Jeu</p>
+                        </div>
+                    </div>
+
+                    {/* Image Trello en dessous */}
+                    <div className="flex flex-col items-center mt-6">
+                        <img
+                            alt="Interface EPSI:STEM"
+                            src="/trello_epsistem.png"
+                            width={900}
+                            height={600}
+                            className="rounded-lg shadow-lg"
+                        />
+                        <p className="text-stone-400 text-sm mt-2">Trello</p>
+                    </div>
+
                 </section>
 
             </div>

@@ -61,26 +61,29 @@ export default function ProjetGLPI() {
                     </div>
                 </section>
 
-                {/* Images du projet */}
-                <section className="w-full text-center space-y-6">
-                    <div>
-                        <h4 className="text-xl font-semibold text-white">Interface GLPI</h4>
-                        <img
-                            alt="Aperçu de GLPI"
-                            src="img/GLPI_Interface.jpg"
-                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                        />
-                    </div>
-                    <div>
-                        <h4 className="text-xl font-semibold text-white">Inventaire FusionInventory</h4>
-                        <img
-                            alt="Inventaire FusionInventory"
-                            src="img/FusionInventory.jpg"
-                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                        />
+                <section className="w-full flex flex-col items-center gap-6">
+                    {/* Conteneur des images disposées verticalement */}
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="gpli_vm"
+                                src="/glpi_vm.png"
+                                className="rounded-lg shadow-lg h-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">VM GPLI</p>
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="gpli"
+                                src="/glpi.png"
+                                className="rounded-lg shadow-lg w-[900px] h-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">GLPI</p>
+                        </div>
+
                     </div>
                 </section>
-
             </div>
         </main>
     );

@@ -78,13 +78,29 @@ export default function ProjetInfraRes() {
                 </section>
 
                 {/* Images du projet */}
-                <section className="w-full text-center space-y-6">
-                    <img
-                        alt="Infrastructure Cisco Packet Tracer"
-                        src="img/Cisco.jpg"
-                        className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                    />
+                <section className="w-full flex flex-col items-center gap-6">
+                    {/* Conteneur des deux images côte à côte */}
+                    <div className="flex justify-center gap-6">
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="git"
+                                src="/projet_infra_git.png"
+                                className="rounded-lg shadow-lg w-[600px] h-[300px] object-cover"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Github</p>
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="git"
+                                src="/cisco_infra.png"
+                                className="rounded-lg shadow-lg"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Cisco Packet Tracer</p>
+                        </div>
+                    </div>
                 </section>
+
 
             </div>
         </main>

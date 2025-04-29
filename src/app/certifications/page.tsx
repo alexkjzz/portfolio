@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Certifications() {
     const certifications = [
-        { id: "mooc", name: "MOOC", status: "PDF Disponible", description: "Formation en ligne permettant d’acquérir des compétences en informatique et développement.", background: "bg-[#5C2A2A]", button: "bg-[#7A3A3A] hover:bg-[#944A4A]", link: "#" },
-        { id: "cnil", name: "CNIL", status: "PDF Disponible", description: "Certification sur la protection des données personnelles et la conformité RGPD.", background: "bg-[#1E3A5F]", button: "bg-[#2E4D7A] hover:bg-[#3D5F94]", link: "#" },
+        { id: "mooc", name: "MOOC", status: "PDF Disponible", description: "Formation en ligne permettant d’acquérir des compétences en informatique et développement.", background: "bg-[#5C2A2A]", button: "bg-[#7A3A3A] hover:bg-[#944A4A]", link: "/LAMONNIER_Alexis_MOOC.pdf" },
+        { id: "cnil", name: "CNIL", status: "ZIP Disponible", description: "Certification sur la protection des données personnelles et la conformité RGPD.", background: "bg-[#1E3A5F]", button: "bg-[#2E4D7A] hover:bg-[#3D5F94]", link: "/MOOC_CNIL.zip" },
         { id: "aws", name: "AWS", status: "EN COURS", description: "Certification de compétences sur les services cloud AWS et leur utilisation en entreprise.", background: "bg-green-900", button: "bg-green-800 hover:bg-green-700", link: "#" }
     ];
 

@@ -26,6 +26,16 @@ export default function TPArgali() {
                     </div>
                 </section>
 
+                <section className="w-full text-center">
+                    <img
+                    alt="Logo Argali"
+                    src="/argali_logo.png"
+                    width="300"
+                    height="150"
+                    className="mx-auto"
+                    />
+                </section>
+                
                 {/* Technologies utilisées */}
                 <section className="w-full bg-stone-800 p-6 rounded-lg shadow-lg">
                     <h2 className="text-2xl font-bold text-white border-b border-stone-500 pb-3">Technologies utilisées</h2>
@@ -60,16 +70,6 @@ export default function TPArgali() {
                         </div>
                     </div>
                 </section>
-
-                {/* Image du projet */}
-                <section className="w-full text-center">
-                    <img
-                        alt="Code Argali"
-                        src="img/codeArgali.jpg"
-                        className="rounded-lg shadow-lg w-full max-w-2xl mx-auto mt-6"
-                    />
-                </section>
-
             </div>
         </main>
     );

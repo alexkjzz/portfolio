@@ -51,16 +51,6 @@ export default function TPGitHub() {
                         </div>
                     </div>
                 </section>
-
-                {/* Image du projet */}
-                <section className="w-full text-center">
-                    <img
-                        alt="GitHub.io Aperçu"
-                        src="img/githubio.jpg"
-                        className="rounded-lg shadow-lg w-full max-w-2xl mx-auto mt-6"
-                    />
-                </section>
-
             </div>
         </main>
     );

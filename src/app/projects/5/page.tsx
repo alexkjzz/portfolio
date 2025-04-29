@@ -1,4 +1,3 @@
-import { Github } from "lucide-react";
 
 export default function ProjetSWAPI() {
     return (
@@ -10,8 +9,8 @@ export default function ProjetSWAPI() {
                     <div>
                         <h1 className="text-4xl font-extrabold text-white">Projet SWAPI</h1>
                         <p className="text-stone-300 mt-3 text-lg leading-relaxed max-w-3xl">
-                            Une application <span className="font-bold">Python</span> intégrant <span className="font-bold">SQLite</span> et <span className="font-bold">SQLAlchemy</span>, 
-                            permettant aux utilisateurs d’ajouter des films de Star Wars à une liste de favoris et de les consulter. 
+                            Une application <span className="font-bold">Python</span> intégrant <span className="font-bold">SQLite</span> et <span className="font-bold">SQLAlchemy</span>,
+                            permettant aux utilisateurs d’ajouter des films de Star Wars à une liste de favoris et de les consulter.
                             Elle inclut également un rôle administrateur pour la gestion des statistiques.
                         </p>
                     </div>
@@ -63,23 +62,40 @@ export default function ProjetSWAPI() {
                     </div>
                 </section>
 
-                {/* Images du projet */}
-                <section className="w-full text-center space-y-6">
-                    <img
-                        alt="API Swapi Aperçu"
-                        src="img/APIswapi.jpg"
-                        className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                    />
-                    <img
-                        alt="Aperçu Interface"
-                        src="img/Apercu.jpg"
-                        className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                    />
-                    <img
-                        alt="Gestion de projet ClickUp"
-                        src="img/Clickup.jpg"
-                        className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                    />
+
+                <section className="w-full flex flex-col items-center gap-6">
+
+                    {/* Première ligne avec deux images */}
+                    <div className="flex justify-center gap-6">
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="API Swapi Aperçu"
+                                src="/film_swapi.png"
+                                className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Aperçu</p>
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="Aperçu Interface"
+                                src="/api_swapi.png"
+                                className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Api</p>
+                        </div>
+                    </div>
+
+                    {/* Image Trello en dessous */}
+                    <div className="flex flex-col items-center mt-6">
+                        <img
+                            alt="Gestion de projet ClickUp"
+                            src="/clickup_swapi.png"
+                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
+                        />
+                        <p className="text-stone-400 text-sm mt-2">ClickUp</p>
+                    </div>
+
                 </section>
 
             </div>

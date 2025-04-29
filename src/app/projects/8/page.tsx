@@ -48,23 +48,27 @@ export default function ProjetTourDeFrance() {
                     </div>
                 </section>
 
-                {/* Images du projet */}
-                <section className="w-full text-center space-y-6">
-                    <div>
-                        <h4 className="text-xl font-semibold text-white">Modèle Conceptuel de Données (MCD)</h4>
-                        <img
-                            alt="Aperçu du MCD"
-                            src="img/TourDeFranceMCD.jpg"
-                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                        />
-                    </div>
-                    <div>
-                        <h4 className="text-xl font-semibold text-white">Interface CRUD</h4>
-                        <img
-                            alt="CRUD Tour de France"
-                            src="img/TourDeFranceCRUD.jpg"
-                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                        />
+                <section className="w-full flex flex-col items-center gap-6">
+                    {/* Conteneur des images disposées verticalement */}
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="trello_tour_de_france"
+                                src="/trello_tour_de_france.png"
+                                className="rounded-lg shadow-lg w-[900px] h-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Trello Tour de France</p>
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="tour_de_france"
+                                src="/tour_de_france.png"
+                                className="rounded-lg shadow-lg w-[900px] h-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Aperçu Tour de France</p>
+                        </div>
+
                     </div>
                 </section>
 

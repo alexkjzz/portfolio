@@ -64,25 +64,40 @@ export default function ProjetAgenda() {
                     </div>
                 </section>
 
-                {/* Images du projet */}
-                <section className="w-full text-center space-y-6">
-                    <div>
-                        <h4 className="text-xl font-semibold text-white">Agenda</h4>
-                        <img
-                            alt="Aperçu de l'Agenda"
-                            src="img/AgendaImg.jpg"
-                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                        />
-                    </div>
-                    <div>
-                        <h4 className="text-xl font-semibold text-white">Création d'événement</h4>
-                        <img
-                            alt="Base de données de l'Agenda"
-                            src="img/AgendaBDD.jpg"
-                            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-                        />
+                <section className="w-full flex flex-col items-center gap-6">
+                    {/* Conteneur des images disposées verticalement */}
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="agenda"
+                                src="/agenda.png"
+                                className="rounded-lg shadow-lg w-[900px] h-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Aperçu Agenda</p>
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="bdd_agenda"
+                                src="/bdd_agenda.png"
+                                className="rounded-lg shadow-lg w-[900px] h-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">BDD Agenda</p>
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="git_agenda"
+                                src="/git_agenda.png"
+                                className="rounded-lg shadow-lg w-[900px] h-auto"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">GitHub Agenda</p>
+                        </div>
                     </div>
                 </section>
+
+
+
 
             </div>
         </main>

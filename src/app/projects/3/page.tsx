@@ -1,4 +1,3 @@
-import { Github } from "lucide-react";
 
 export default function ProjetWordPress() {
     return (
@@ -61,12 +60,21 @@ export default function ProjetWordPress() {
                 </section>
 
                 {/* Image du projet */}
-                <section className="w-full text-center">
-                    <img
-                        alt="Projet WordPress"
-                        src="img/projetWordPress.jpg"
-                        className="rounded-lg shadow-lg w-full max-w-2xl mx-auto mt-6"
-                    />
+                <section className="w-full flex flex-col items-center gap-6">
+                    
+                    {/* Première ligne avec deux images */}
+                    <div className="flex justify-center gap-6">
+                        <div className="flex flex-col items-center">
+                            <img
+                                alt="Interface EPSI:STEM"
+                                src="/wordpress.png"
+                                width={900}
+                                height={600}
+                                className="mt-6 rounded-lg shadow-lg"
+                            />
+                            <p className="text-stone-400 text-sm mt-2">Wordpress Pages</p>
+                        </div>
+                    </div>
                 </section>
 
             </div>

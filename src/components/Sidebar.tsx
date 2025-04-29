@@ -15,9 +15,7 @@ const navItems = [
 
 const socialLinks = [
     { href: "https://github.com/alexkjzz", label: "GitHub", icon: <Github size={20} /> },
-    { href: "https://www.linkedin.com/in/alexis-lamonnier-b6740b292/", label: "LinkedIn", icon: <Linkedin size={20} /> },
-    { href: "/cv.pdf", label: "CV", icon: <FileText size={20} /> },
-];
+    { href: "https://www.linkedin.com/in/alexis-lamonnier-b6740b292/", label: "LinkedIn", icon: <Linkedin size={20} /> },];
 
 export default function Sidebar() {
     const pathname = usePathname();
