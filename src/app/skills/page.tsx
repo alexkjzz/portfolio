@@ -23,7 +23,7 @@ const Competences = () => {
                         Découvrez mes compétences développées et leurs détails.
                     </p>
                     <a 
-                        href="/competences.xlsx" 
+                        href="/excel.xlsx" 
                         download
                         className="mt-4 flex items-center w-fit px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-500 transition duration-200"
                     >
