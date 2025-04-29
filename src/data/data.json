@@ -1,0 +1,155 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "TP rentrée n°1",
+            "image": "img/1.jpg",
+            "category": "Développement Web",
+            "description": "Exploration des bases du développement web.",
+            "competences": [
+                "modeProjet",
+                "organiserDevPro"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "TP rentrée n°2 - EPSI:STEM",
+            "image": "img/jeuxEpsistem.jpg",
+            "category": "Application Mobile",
+            "description": "Application mobile interactive développée sous Unity pour les salons étudiants et journées portes ouvertes.",
+            "competences": [
+                "modeProjet",
+                "organiserDevPro",
+                "mettreDispoService"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "WordPress",
+            "image": "img/1.jpg",
+            "category": "CMS & Blogging",
+            "description": "Création et personnalisation d’un site sous WordPress.",
+            "competences": [
+                "presenceEnLigne",
+                "mettreDispoService",
+                "organiserDevPro"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "CV githubio",
+            "image": "img/1.jpg",
+            "category": "Portfolio",
+            "description": "Mise en ligne d’un CV interactif via GitHub Pages.",
+            "competences": [
+                "organiserDevPro"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "SWAPI",
+            "image": "img/1.jpg",
+            "category": "API & Données",
+            "description": "Exploitation de l'API Star Wars pour récupérer des données.",
+            "competences": [
+                "modeProjet",
+                "organiserDevPro",
+                "mettreDispoService"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Projet Infra Res",
+            "image": "img/1.jpg",
+            "category": "Infrastructure & Réseaux",
+            "description": "Gestion des configurations réseau et déploiement serveur.",
+            "competences": [
+                "modeProjet",
+                "organiserDevPro",
+                "gererPatrimoine"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Projet Agenda",
+            "image": "img/1.jpg",
+            "category": "Organisation",
+            "description": "Conception d’un agenda interactif.",
+            "competences": [
+                "modeProjet",
+                "organiserDevPro"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Tour de France",
+            "image": "img/1.jpg",
+            "category": "Base de Données & Développement",
+            "description": "Base de données pour la gestion du Tour de France.",
+            "competences": [
+                "gererPatrimoine",
+                "modeProjet"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Projet GLPI / FusionInventory",
+            "image": "img/glpi_fusioninventory.jpg",
+            "category": "Gestion de parc informatique",
+            "description": "Installation et configuration de GLPI et FusionInventory.",
+            "competences": [
+                "gererPatrimoine",
+                "repondreIncidents"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Projet Chasse Expo",
+            "image": "img/chasseexpo.jpg",
+            "category": "Application Mobile",
+            "description": "Application mobile avec caméra et formulaire, intégrant Firebase.",
+            "competences": [
+                "modeProjet",
+                "mettreDispoService"
+            ]
+        }
+    ],
+    "competences": [
+        {
+            "id": "repondreIncidents",
+            "name": "Répondre aux incidents et aux demandes d'assistance et d'évolution",
+            "category": "Support & Maintenance",
+            "description": "Gestion des demandes utilisateurs, résolution d’incidents et suivi des évolutions logicielles."
+        },
+        {
+            "id": "mettreDispoService",
+            "name": "Mettre à disposition des utilisateurs un service informatique",
+            "category": "Déploiement & Infrastructure",
+            "description": "Déploiement et maintenance des services informatiques, intégration de nouvelles solutions et accompagnement des utilisateurs."
+        },
+        {
+            "id": "presenceEnLigne",
+            "name": "Développer la présence en ligne de l'organisation",
+            "category": "Web & Référencement",
+            "description": "Création et optimisation de sites web, gestion du référencement et des réseaux sociaux."
+        },
+        {
+            "id": "organiserDevPro",
+            "name": "Organiser son développement professionnel",
+            "category": "Évolution & Veille",
+            "description": "Auto-formation, veille technologique et amélioration continue des compétences."
+        },
+        {
+            "id": "gererPatrimoine",
+            "name": "Gérer le patrimoine informatique",
+            "category": "Administration & Sécurité",
+            "description": "Administration des infrastructures, gestion des sauvegardes et sécurité des systèmes."
+        },
+        {
+            "id": "modeProjet",
+            "name": "Travailler en mode projet",
+            "category": "Collaboration & Méthodologie",
+            "description": "Planification, travail d’équipe et utilisation d’outils de gestion comme Trello et GitHub."
+        }
+    ]
+}
