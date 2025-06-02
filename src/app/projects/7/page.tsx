@@ -61,11 +61,29 @@ export default function ProjetAgenda() {
                                 <li>Travail en équipe et gestion efficace du projet.</li>
                             </ul>
                         </div>
+
+                        {/* Gérer le patrimoine informatique */}
+                        <div>
+                            <h3 className="text-xl font-semibold text-white">Gérer le patrimoine informatique</h3>
+                            <ul className="list-disc list-inside space-y-2">
+                                <li>Conception d’un <span className="font-bold">MCD</span> (Modèle Conceptuel de Données) en amont du développement pour structurer les données.</li>
+                                <li>Création d’un <span className="font-bold">diagramme de classes</span> pour planifier l’architecture logicielle du projet.</li>
+                            </ul>
+                        </div>
+
+                        {/* Mettre à disposition des utilisateurs un service informatique */}
+                        <div>
+                            <h3 className="text-xl font-semibold text-white">Mettre à disposition des utilisateurs un service informatique</h3>
+                            <ul className="list-disc list-inside space-y-2">
+                                <li>Mise en place d’une <span className="font-bold">interface en ligne de commande (CLI)</span> pour permettre aux utilisateurs de s’authentifier et d’interagir avec le service.</li>
+                                <li>Fonctionnalités accessibles aux utilisateurs via l’interface CLI : authentification, consultation, gestion des événements.</li>
+                            </ul>
+                        </div>
                     </div>
                 </section>
 
+                {/* Images */}
                 <section className="w-full flex flex-col items-center gap-6">
-                    {/* Conteneur des images disposées verticalement */}
                     <div className="flex flex-col items-center gap-4">
                         <div className="flex flex-col items-center">
                             <img
@@ -95,10 +113,6 @@ export default function ProjetAgenda() {
                         </div>
                     </div>
                 </section>
-
-
-
-
             </div>
         </main>
     );

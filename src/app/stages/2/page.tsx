@@ -45,38 +45,61 @@ export default function Decathlon() {
             />
         </section>
 
-        {/* Défis et solutions */}
         <section className="w-full bg-stone-800 p-6 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold text-white border-b border-stone-500 pb-3">Défis et solutions</h2>
-            <p className="text-stone-300 mt-3 text-lg leading-relaxed">
-            L’un des principaux défis a été la persistance d’une sélection dans un <em>dropdown</em> entre différentes pages 
-            (<span className="font-bold">"Create Setting"</span> et la précédente), sans utiliser le stockage local. La solution mise en place a 
-            été optimisée pour garantir une expérience utilisateur fluide, sans impact négatif sur l’application.
-            </p>
-            <p className="text-stone-300 mt-3 text-lg leading-relaxed">
-            Une autre mission clé a été la <span className="font-bold">refonte complète d’une page</span> pour améliorer la cohérence avec le design global, 
-            répondant à une demande spécifique d’un utilisateur et visant à perfectionner l’expérience utilisateur.
-            </p>
+        <h2 className="text-2xl font-bold text-white border-b border-stone-500 pb-3">Compétences acquises</h2>
+
+        <div className="text-stone-300 mt-3 space-y-4 text-lg">
+
+            {/* Répondre aux incidents et aux demandes d’assistance et d’évolution */}
+            <div>
+            <h3 className="text-xl font-semibold text-white">Répondre aux incidents et aux demandes d’assistance et d’évolution</h3>
+            <ul className="list-disc list-inside space-y-2">
+                <li>Utilisation de <span className="font-bold">Jira</span> pour le suivi et la priorisation des tickets.</li>
+                <li>Correction de bugs via <span className="font-bold">GitHub</span> avec création de branches, pull requests et revues de code.</li>
+            </ul>
+            </div>
+
+            {/* Mettre à disposition des utilisateurs un service informatique */}
+            <div>
+            <h3 className="text-xl font-semibold text-white">Mettre à disposition des utilisateurs un service informatique</h3>
+            <ul className="list-disc list-inside space-y-2">
+                <li>Développement de composants avec <span className="font-bold">React</span> et <span className="font-bold">Next.js</span>.</li>
+                <li>Déploiement dans des environnements de test pour validation utilisateur.</li>
+            </ul>
+            </div>
+
+            {/* Travailler en mode projet */}
+            <div>
+            <h3 className="text-xl font-semibold text-white">Travailler en mode projet</h3>
+            <ul className="list-disc list-inside space-y-2">
+                <li>Organisation du travail via <span className="font-bold">Jira</span> avec des sprints agiles.</li>
+                <li>Utilisation collaborative de <span className="font-bold">GitHub</span> pour gérer le code et suivre les évolutions.</li>
+            </ul>
+            </div>
+
+            {/* Gérer le patrimoine informatique */}
+            <div>
+            <h3 className="text-xl font-semibold text-white">Gérer le patrimoine informatique</h3>
+            <ul className="list-disc list-inside space-y-2">
+                <li>Maintenance et amélioration d’une base de code existante.</li>
+                <li>Refactorisation de composants pour améliorer la lisibilité et les performances.</li>
+            </ul>
+            </div>
+
+            {/* Organiser son développement professionnel */}
+            <div>
+            <h3 className="text-xl font-semibold text-white">Organiser son développement professionnel</h3>
+            <ul className="list-disc list-inside space-y-2">
+                <li>Participation à des <span className="font-bold">formations internes Decathlon</span> (outils, bonnes pratiques, technologies).</li>
+                <li>Réalisation d’une <span className="font-bold">veille technologique</span> continue pour rester à jour avec les évolutions du développement web.</li>
+            </ul>
+            </div>
+
+        </div>
         </section>
 
-        {/* Compétences développées */}
-        <section className="w-full bg-stone-800 p-6 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold text-white border-b border-stone-500 pb-3">Compétences développées</h2>
-            <p className="text-stone-300 mt-3 text-lg leading-relaxed">
-            Ce stage chez Decathlon m’a permis de <span className="font-bold">développer des compétences interpersonnelles</span> 
-            grâce aux nombreuses interactions avec différentes équipes, facilitant la compréhension des besoins métier et l’amélioration de la collaboration.
-            </p>
-        </section>
 
-        {/* Sessions de veille et innovation */}
-        <section className="w-full bg-stone-800 p-6 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold text-white border-b border-stone-500 pb-3">Sessions de veille et innovation</h2>
-            <p className="text-stone-300 mt-3 text-lg leading-relaxed">
-            Participation à des <span className="font-bold">visioconférences</span> organisées par le staff engineer, offrant des 
-            mises à jour technologiques et des bonnes pratiques en informatique. Ces sessions de veille permettaient d’explorer des innovations 
-            et d’adopter les nouveautés selon les besoins du projet.
-            </p>
-        </section>
+
 
         </div>
     </main>

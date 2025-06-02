@@ -9,17 +9,6 @@ export default function ProjetGLPI() {
                 <section className="text-left w-full border-b border-stone-500 pb-6">
                     <h1 className="text-4xl font-extrabold text-white">Projet GLPI / FusionInventory</h1>
 
-                    {/* Bouton GitHub sous le h1 */}
-                    <a
-                        href="https://github.com/ton-projet-glpi"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-3 mt-4 text-stone-300 hover:text-white transition duration-200"
-                    >
-                        <Github size={28} />
-                        <span className="text-lg font-medium">Voir sur GitHub</span>
-                    </a>
-
                     <p className="text-stone-300 mt-3 text-lg leading-relaxed max-w-3xl">
                         Ce projet consistait à <span className="font-bold">installer et configurer GLPI</span> sur une machine <span className="font-bold">Debian</span> en respectant des normes de sécurité, puis à intégrer le <span className="font-bold">plugin FusionInventory</span> pour réaliser l’inventaire matériel et logiciel.
                     </p>

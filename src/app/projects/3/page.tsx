@@ -48,14 +48,6 @@ export default function ProjetWordPress() {
                             </ul>
                         </div>
 
-                        {/* Organiser son développement professionnel */}
-                        <div>
-                            <h3 className="text-xl font-semibold text-white">Organiser son développement professionnel</h3>
-                            <ul className="list-disc list-inside space-y-2">
-                                <li>Apprentissage des bonnes pratiques pour concevoir une page efficace sous <span className="font-bold">WordPress</span>.</li>
-                                <li>Amélioration des compétences en gestion de contenu et référencement.</li>
-                            </ul>
-                        </div>
                     </div>
                 </section>
 

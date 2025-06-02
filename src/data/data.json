@@ -31,8 +31,7 @@
             "description": "Création et personnalisation d’un site sous WordPress.",
             "competences": [
                 "presenceEnLigne",
-                "mettreDispoService",
-                "organiserDevPro"
+                "mettreDispoService"
             ]
         },
         {
@@ -53,6 +52,7 @@
             "description": "Exploitation de l'API Star Wars pour récupérer des données.",
             "competences": [
                 "modeProjet",
+                "gererPatrimoine",
                 "organiserDevPro",
                 "mettreDispoService"
             ]
@@ -77,7 +77,10 @@
             "description": "Conception d’un agenda interactif.",
             "competences": [
                 "modeProjet",
-                "organiserDevPro"
+                "organiserDevPro",
+                "gererPatrimoine",
+                "repondreIncidents",
+                "presenceEnLigne"
             ]
         },
         {
@@ -111,6 +114,48 @@
             "competences": [
                 "modeProjet",
                 "mettreDispoService"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Projet Brasserie Terroir & Savoirs - Web",
+            "image": "img/brasserie.jpg",
+            "category": "Développement Web & Gestion",
+            "description": "Projet en deux parties : un site vitrine et un panneau administrateur permettant la gestion du stock, des utilisateurs et des réservations via une API Symfony.",
+            "competences": [
+                "repondreIncidents",
+                "mettreDispoService",
+                "presenceEnLigne",
+                "organiserDevPro",
+                "gererPatrimoine",
+                "modeProjet"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Projet Brasserie Terroir & Savoirs - Mobile",
+            "image": "img/brasserie_mobile.jpg",
+            "category": "Application Mobile",
+            "description": "Application mobile en Flutter permettant la gestion des commandes de produits, réservations et utilisateurs via une API connectée à une base MySQL.",
+            "competences": [
+                "repondreIncidents",
+                "mettreDispoService",
+                "presenceEnLigne",
+                "organiserDevPro",
+                "gererPatrimoine",
+                "modeProjet"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Bonsai Coach Académie",
+            "image": "img/bonsai.jpg",
+            "category": "Maintenance Applicative",
+            "description": "Refactorisation d’un projet existant en suivant un cahier des charges et des users stories. Ajout de fonctionnalités comme le multi-upload, les règles d’accès et l’intégration backend/frontend.",
+            "competences": [
+                "gererPatrimoine",
+                "modeProjet",
+                "organiserDevPro"
             ]
         }
     ],
