@@ -40,7 +40,7 @@ export default function Decathlon() {
         <section className="w-full text-center">
             <img
             alt="Projet chez Decathlon"
-            src="/decathlon-digital.png"
+            src="/logo-decathlon.webp"
             className="rounded-lg shadow-lg w-full max-w-2xl mx-auto mt-6"
             />
         </section>
