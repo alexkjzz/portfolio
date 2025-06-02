@@ -36,7 +36,7 @@ export default function NorthCreation() {
         <section className="w-full text-center">
             <img
             alt="Back Office - NorthCreation"
-            src="img/back_office_stage1.jpg"
+            src="/stage-mcd-north.png"
             className="rounded-lg shadow-lg w-full max-w-2xl mx-auto mt-6"
             />
         </section>
